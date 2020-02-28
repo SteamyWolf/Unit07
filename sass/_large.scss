@@ -1,0 +1,23 @@
+/* NAVigation  */
+
+
+
+main {
+    @for $i from 1 through 12 {
+		$w: ($i / 12) * 100%;
+		.large-#{$i} {width: $w; float: left;}
+	}
+
+	.ctaBtn {
+		padding: 0 5px;
+
+		button {
+			padding: 25px 0;
+			font-size: 1.5rem;
+		}
+	}
+
+	.lawName {
+		h2 {font-size: 1.5rem;}
+	}
+}
